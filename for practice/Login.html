@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Facebook Login</title>
+        <style>
+            .border{
+                border: 1px solid white;
+                border-radius: 10px;
+                background-color:transparent;
+                text-align: center;
+                width: 500px;
+                height: 600px;
+                position: relative;
+                left: 550px;
+                top: 80px;
+                box-shadow: 8px 8px;
+                color: yellow;
+                backdrop-filter: blur(25px);
+            }
+            .title{
+                color: white;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 60px;
+            }
+            .name{
+                width: 300px;
+                height: 30px;
+                font-size: 18px;
+                background-color: transparent;
+                color: white;
+                border-radius: 15px;
+
+            }
+            .checkbox{
+                display: inline-flex;
+                color: white;
+                font-size: 15px;
+                padding: 20px;
+            }
+            .login{
+                border: 2px solid blue;
+                border-radius: 10px;
+                background-color: blue;
+                width: 300px;
+                height: 30px;
+                color: white;
+                font-size: 20px;
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: bold;
+                text-decoration: none;
+                
+                
+            }
+            .login:hover{
+                color: black;
+                font-size: 25px;
+                text-decoration: none;
+                background-color: lightblue;
+
+            }
+            .signup{
+                font-size: 18px;
+                color: white;
+            }
+            #pointer{
+                cursor: pointer;
+                color: aqua;
+            }
+            #pointer:hover{
+                color: brown;
+                text-decoration: underline;
+                
+            }
+            .body{
+                background-image: url("https://i.pinimg.com/736x/54/ba/1a/54ba1aebeb5c5c92105f430009db074c.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            
+            
+        </style>
+    </head>
+    <body class="body">
+        <div class="border">
+            <h1 class="title">Login Page</h1>
+            <input type="email" name="name and password" class="name" placeholder="Email"><br><br>
+            <input type="password" name="name and password" class="name" placeholder="Password"><br><br>
+            <p class="checkbox"><input type="checkbox" class="checkbox" value="Remember me">Remember me</p>
+            <p id="paragraph" class="checkbox">Forgot Password?</p><br>
+            <a href="https://www.facebook.com" target="_blank" class="login" title="Login to Facebook">Login</a><br><br><br><br>
+            <p class="signup">Don't have an account?<a href="signup page.html" <strong id="pointer">Sign up</strong></p>
+
+        </div>
+        
+            
+        
+    </body>
+</html>
